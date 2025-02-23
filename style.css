@@ -1,0 +1,22 @@
+
+body{
+    background-color: #1A1A1D;
+}
+
+h1{
+    font-family: "Alfa Slab One",serif;
+    color: #6A1E55;
+}
+
+h2{
+    font-family: "Merriweather",serif;
+    color: #6A1E55;
+}
+
+#picture{
+    border: 5px solid #3B1C32;
+}
+
+li,p,small{
+    color: #A64D79;
+}
