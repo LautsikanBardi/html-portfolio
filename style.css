@@ -6,18 +6,103 @@ body{
 h1{
     font-family: "Alfa Slab One",serif;
     color: #6A1E55;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h2{
     font-family: "Merriweather",serif;
     color: #6A1E55;
+    -webkit-text-stroke: 0.1px #A64D79;
 }
 
 #picture{
-    border: 5px solid #3B1C32;
+    border: 5px solid #A64D79;
 }
 
 li,p,small{
     color: #A64D79;
     font-family: "Merriweather",serif
+}
+
+a{
+    color: white;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.name{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B1C32;
+    border: 5px solid #A64D79;
+    padding: 10px;
+    -webkit-text-stroke: 0.1px #A64D79;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-box{
+    background-color: #3B1C32;
+    border: 5px solid #A64D79;
+    padding: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.image{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    background-color: #3B1C32;
+    border: 5px solid #A64D79;
+    padding: 10px;
+}
+
+.one{
+    grid-column: span 2;
+}
+
+.six > ul{
+    list-style-type: none;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3B1C32;
+    border: 5px solid #A64D79;
+    -webkit-text-stroke: 0.1px #A64D79;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.my-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3B1C32;
+    border: 5px solid #A64D79;
+    -webkit-text-stroke: 0.1px #A64D79;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hobbies > li{
+    margin: 0px;
+    font-size: x-large;
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer{
+    padding: 5px;
+    grid-column: span 2;
 }
