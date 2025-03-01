@@ -32,7 +32,6 @@
     display: grid;
     grid-template-columns: minmax(200px, 400px) minmax(100px, 300px);
     grid-template-rows: repeat(1, 1fr);
-    /* width: 100vh; */
     margin: auto;
     text-align: left;
     row-gap: 2rem;
@@ -146,11 +145,13 @@ h3 {
 .dev-img>img {
     width: 50%;
     height: auto;
+    padding-left: 20px;
 }
 
 .music-img>img {
     width: 50%;
     height: auto;
+    padding-left: 20px;
 }
 
 .design-development {
