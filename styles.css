@@ -1,0 +1,172 @@
+.top-container {
+    background-color: #151515;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.middle-container {
+    background-color: #151515;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.bottom-container {
+    font-family: "Libre Baskerville", serif;
+    background-color: #A91D3A;
+    padding: 3rem 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.footer-link {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: repeat(1, 1fr);
+    width: 100vh;
+    margin: auto;
+    text-align: left;
+    row-gap: 2rem;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 50px;
+}
+
+
+.profile>img {
+    height: 300px;
+    border-radius: 20%;
+}
+
+.aka {
+    color: #A91D3A;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: auto;
+    width: 15%;
+    line-height: 1.5;
+}
+
+.about {
+    color: #EEEEEE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 20%;
+    margin: auto;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+.design-development>p {
+    color: #EEEEEE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.music-text>p {
+    color: #EEEEEE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact {
+    line-height: 0.5;
+    padding-top: 5rem;
+}
+
+.contact>h2 {
+    margin: 0;
+}
+
+.contact-message {
+    margin: 2rem 1rem 3rem;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    margin: 0;
+}
+
+h2 {
+    color: #A91D3A;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+
+h3 {
+    color: #A91D3A;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title-text>h3 {
+    color: #EEEEEE;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.keyboard-img>img {
+    height: 500px;
+}
+
+.dev-img>img {
+    height: 200px;
+}
+
+.music-img>img {
+    height: 200px;
+}
+
+.design-development {
+    align-self: center;
+    justify-self: center;
+}
+
+.dev-img {
+    align-self: center;
+    justify-self: center;
+}
+
+.music-img {
+    align-self: center;
+    justify-self: center;
+}
+
+.music-text {
+    align-self: center;
+    justify-self: center;
+}
+
+.btn {
+    background: #C73659;
+    background-image: linear-gradient(to bottom, #C73659, #A91D3A);
+    border-radius: 8px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #EEEEEE;
+}
