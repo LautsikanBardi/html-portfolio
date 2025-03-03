@@ -46,6 +46,7 @@
 .profile>img {
     height: 300px;
     border-radius: 20%;
+    animation: fadeInOut 6s ease-in-out infinite;
 }
 
 .aka {
@@ -56,6 +57,7 @@
     font-size: 1.5rem;
     margin: auto;
     line-height: 1.5;
+    animation: pulsate 1.5s ease-in-out infinite;
 }
 
 .about {
@@ -140,6 +142,10 @@ h3 {
     padding-top: 40px;
 }
 
+.contact>h2 {
+    animation: pulsate 1.5s ease-in-out infinite;
+}
+
 .keyboard-img>img {
     width: 100%;
     height: auto;
@@ -205,4 +211,35 @@ h3 {
     padding: 10px 10px 10px 10px;
     text-decoration: none;
     color: #EEEEEE;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
 }
