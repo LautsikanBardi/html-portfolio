@@ -1,3 +1,5 @@
+/* Top container CSS code. */
+
 .top-container {
     background-color: #151515;
     text-align: center;
@@ -7,25 +9,54 @@
     flex-direction: column;
 }
 
+.keyboard-img {
+    height: auto;
+}
+
+.aka {
+    color: #A91D3A;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 10px;
+    line-height: 1.5;
+    animation: pulsate 1.5s ease-in-out infinite;
+}
+
+.aka-div {
+    width: 100vh;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Top in Children. */
+
+.title-text>h3 {
+    color: #EEEEEE;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.keyboard-img>img {
+    width: 100%;
+    height: auto;
+}
+
+/* Middle container CSS code. */
+
 .middle-container {
     background-color: #151515;
     text-align: center;
     padding-bottom: 100px;
-}
-
-.bottom-container {
-    font-family: "Libre Baskerville", serif;
-    background-color: #A91D3A;
-    padding: 3rem 2rem;
-    text-align: center;
-    line-height: 2rem;
-}
-
-.footer-link {
-    color: #EEEEEE;
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 10px;
 }
 
 .parent {
@@ -43,23 +74,6 @@
     padding: 0px 15px;
 }
 
-.profile>img {
-    height: 300px;
-    border-radius: 20%;
-    animation: fadeInOut 6s ease-in-out infinite;
-}
-
-.aka {
-    color: #A91D3A;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    margin: auto;
-    line-height: 1.5;
-    animation: pulsate 1.5s ease-in-out infinite;
-}
-
 .about {
     color: #EEEEEE;
     font-family: "Libre Baskerville", serif;
@@ -70,6 +84,40 @@
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.voidess {
+    color: #A91D3A;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.design-development {
+    align-self: center;
+    justify-self: center;
+}
+
+.dev-img {
+    align-self: center;
+    justify-self: center;
+}
+
+.music-img {
+    align-self: center;
+    justify-self: center;
+}
+
+.music-text {
+    align-self: center;
+    justify-self: center;
+}
+
+/*Middle in Children. */
+
+.profile>img {
+    height: 300px;
+    border-radius: 20%;
 }
 
 .design-development>p {
@@ -86,18 +134,88 @@
     font-style: normal;
 }
 
+.rotated {
+    transform: rotate(360deg);
+}
+
+.dev-img>img {
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    transition: transform 2s ease;
+}
+
+.music-img>img {
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    transition: transform 2s ease;
+}
+
+.voidess-logo>img {
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    transition: transform 2s ease;
+}
+
+.voidess-links>a {
+    background: #C73659;
+    background-image: linear-gradient(to bottom, #8f027c, #A91D3A);
+    border-radius: 8px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #EEEEEE;
+    animation: pulsate 1.5s ease-in-out infinite;
+}
+
+/* Bottom container CSS code. */
+
+.bottom-container {
+    font-family: "Libre Baskerville", serif;
+    background-color: #A91D3A;
+    padding: 3rem 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.footer-link {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px;
+}
+
 .contact {
     line-height: 0.5;
     padding-top: 5rem;
 }
 
+.contact-message {
+    margin: 2rem 1rem 3rem;
+}
+
+.btn {
+    background: #C73659;
+    background-image: linear-gradient(to bottom, #8f027c, #A91D3A);
+    border-radius: 8px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #EEEEEE;
+    animation: pulsate 1.5s ease-in-out infinite;
+}
+
+/* Bottom in Children. */
+
 .contact>h2 {
     margin: 0;
 }
 
-.contact-message {
-    margin: 2rem 1rem 3rem;
-}
+
+
+/* H tags CSS code. */
 
 h1 {
     color: #EEEEEE;
@@ -125,93 +243,7 @@ h3 {
     margin-bottom: 30px;
 }
 
-.voidess {
-    color: #A91D3A;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.title-text>h3 {
-    color: #EEEEEE;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
-    margin: 0;
-    padding-top: 40px;
-}
-
-.contact>h2 {
-    animation: pulsate 1.5s ease-in-out infinite;
-}
-
-.keyboard-img>img {
-    width: 100%;
-    height: auto;
-}
-
-.keyboard-img {
-    height: auto;
-}
-
-.dev-img>img {
-    width: 50%;
-    height: auto;
-    padding-left: 20px;
-}
-
-.music-img>img {
-    width: 50%;
-    height: auto;
-    padding-left: 20px;
-}
-
-.voidess-logo>img {
-    width: 50%;
-    height: auto;
-    padding-left: 20px;
-}
-
-.design-development {
-    align-self: center;
-    justify-self: center;
-}
-
-.dev-img {
-    align-self: center;
-    justify-self: center;
-}
-
-.music-img {
-    align-self: center;
-    justify-self: center;
-}
-
-.music-text {
-    align-self: center;
-    justify-self: center;
-}
-
-.btn {
-    background: #C73659;
-    background-image: linear-gradient(to bottom, #C73659, #A91D3A);
-    border-radius: 8px;
-    font-family: "Libre Baskerville", serif;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    color: #EEEEEE;
-}
-
-.voidess-links>a {
-    background: #C73659;
-    background-image: linear-gradient(to bottom, #C73659, #A91D3A);
-    border-radius: 8px;
-    font-family: "Libre Baskerville", serif;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    color: #EEEEEE;
-}
+/* Animation CSS code. */
 
 @keyframes pulsate {
     0% {
@@ -221,7 +253,7 @@ h3 {
 
     50% {
         transform: scale(1.1);
-        opacity: 0.8;
+        opacity: 0.4;
     }
 
     100% {
